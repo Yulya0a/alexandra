@@ -13,6 +13,7 @@ h1, h2, h3, h4 {
     font-family: 'Foglihten';
     line-height: .8;
     margin: 0;
+    font-variant-caps: all-petite-caps;
 }
 
 p, a {
@@ -291,3 +292,302 @@ footer {
     font-size: 18px;
 }
 
+/* ------------------------------------------------Обо мне -------------------------------------- */
+
+.about-cover {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-cover h1 {
+    font-size: 100px;
+    margin-top: 100px;
+}
+
+.about-cover-cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 200px;
+}
+
+.about-cover-cont img {
+    width: 30%;
+    height: 90%;
+    object-fit: cover;
+    margin-right: 10%;
+}
+
+.about-cover-text {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.about-cover-text p {
+    font-size: 17px;
+}
+
+.exp-cont {
+    background-color: #CAE0FF;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.exp-cont h2 {
+    margin-bottom: 40px;
+    font-size: 70px;
+}
+
+.exp-list {
+    margin: 0 200px;
+}
+
+.a-divs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.a-divs h3 {
+    margin-bottom: 20px !important;
+    width: 70%;
+    font-size: 40px;
+}
+
+.diplom-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0;
+}
+
+.diplom-cont h2 {
+    text-align: center;
+    font-size: 80px;
+}
+
+.diploms {
+    padding: 0 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.twoimg {
+    display: flex;
+    flex-direction: column;
+    width: 19%;
+}
+
+.twoimg img {
+    width: 100%;
+    object-fit: cover;
+    margin: 10px 0;
+}
+
+.gallery {
+    width: 19%;
+}
+  
+.gallery img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* ------------------------------------------- Отзывы ------------------------------------------- */
+
+.rew-cover {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 180px;
+    margin-bottom: 60px;
+}
+
+.rew-cover h1 {
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+
+.rew-cover p {
+    font-size: 18px;
+}
+
+.rew-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.rew-cont img {
+    width: 60%;
+    object-fit: cover;
+}
+
+.rew-b {
+    background-color: #CAE0FF;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rew-w {
+    background-color: #ffffff;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ------------------------------------------- Услуги и цены -------------------------------------------- */
+
+.price-cover {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 180px;
+    margin-bottom: 60px;
+}
+
+.price-cover h1 {
+    font-size: 100px;
+    margin-bottom: 40px;
+}
+
+.price-h {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.price-h h2 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    width: 70%;
+}
+
+.price-h p {
+    font-size: 23px;
+    color: #0f6fcf;
+    font-variant-caps: all-petite-caps;
+}
+
+.price-price {
+    margin-top: 30px;
+}
+
+.price-price p {
+    opacity: .6;
+    font-size: 20px;
+    font-variant-caps: all-petite-caps;
+}
+
+.price-price h3 {
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+hr {
+    width: 80%;
+    border: 1px solid rgb(218, 229, 232);
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.pr-works {
+    margin-top: 40px !important;
+}
+
+.price-blue {
+    background-color: #CAE0FF;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0 0 0;
+    margin-bottom: 80px;
+}
+
+.price-blue-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    margin-left: 5%;
+}
+
+.price-blue-text p {
+    font-size: 18px;
+}
+
+/* -------------------------------------------- Контакты --------------------------------------------- */
+
+.cont-cover {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 180px;
+    margin-bottom: 60px;
+}
+
+.cont-cover h1 {
+    font-size: 100px;
+    margin-bottom: 40px;
+}
+
+.cont-cover p{
+    font-size: 18px;
+}
+
+.cont-cover a {
+    font-size: 35px;
+    color: #000;
+    text-decoration: none;
+}
+
+.cont-phone {
+    margin: 40px 0;
+}
+
+.links img {
+    margin: 0 10px;
+    width: 60px;
+}
+
+.cont-cover a:hover {
+    opacity: .7;
+    text-decoration: none;
+}
