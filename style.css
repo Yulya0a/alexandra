@@ -1,0 +1,293 @@
+body {
+    overflow-x: hidden;
+}
+
+
+@font-face {
+    font-family: 'Foglihten';
+    src: url(fonts/FoglihtenNo06_076.woff) format('woff');
+}
+
+
+h1, h2, h3, h4 {
+    font-family: 'Foglihten';
+    line-height: .8;
+    margin: 0;
+}
+
+p, a {
+
+}
+
+.nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+}
+
+.nav-cont {
+    padding: 40px 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav a:hover {
+    text-decoration: none;
+    opacity: .7;
+}
+
+.nav img {
+    width: 300px;
+}
+
+.nav-links a {
+    font-size: 18px;
+    margin: 0 15px;
+    color: #000;
+}
+
+.phone {
+    display: flex;
+    flex-direction: row;
+}
+
+.phone img {
+    width: 27px;
+    margin-right: 10px;
+}
+
+.phone a {
+    font-size: 18px;
+    color: #000;
+}
+
+.cover {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.cover img {
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.cover-text {
+    padding-top: 40px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 45%;
+}
+
+.cover-text h1 {
+    font-size: 100px;
+    font-variant-caps: all-petite-caps;
+}
+
+.cover-text p {
+    font-size: 18px;
+    margin: 40px 0;
+}
+
+.cover-text a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.button {
+    background-color: #2B6CAB;
+    padding: 12px 45px;
+    border: none;
+    color: #fff;
+}
+
+.button:hover {
+    background-color: #1a538d;
+    border: none;
+    color: #fff;
+}
+
+.cover-text p {
+    font-size: 18px;
+}
+
+.main-about {
+    background-color: #0592C2;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.a-img {
+    margin-left: 200px;
+    height: 80%;
+    object-fit: cover;
+    margin-right: 10%;
+}
+
+.a-text-block {
+    width: 40%;
+    margin-right: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.list p {
+    margin: 0 !important;
+}
+
+.list img {
+    width: 45px;
+    margin-right: 15px;
+}
+
+.a-text-block h2 {
+    font-size: 65px;
+    font-variant-caps: all-petite-caps;
+}
+
+.a-text-block p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.list p {
+    font-size: 18px;
+}
+
+.work {
+    display: flex;
+    flex-direction: column;
+}
+
+.works-list {
+    margin: 100px 200px 100px 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.w-img {
+    width: 40%;
+}
+
+.w-list-cont {
+    width: 55%;
+}
+
+.w-list-cont h2 {
+    font-size: 40px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+.w-list-cont p {
+    font-size: 18px;
+    margin: 0 !important;
+}
+
+.w-list-cont img {
+    width: 30px !important;
+    height: 40px;
+}
+
+.w-blue {
+    text-align: center;
+    background-color: #A7CDFE;
+    padding: 45px 200px 40px 200px;
+}
+
+.work h3 {
+    line-height: 1;
+    font-size: 35px;
+}
+
+.work p {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.form {
+    width: 100%;
+    margin: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-cont {
+    /* width: 70%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FDDCBA;
+    padding: 70px 40px;
+}
+
+.form-cont h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.form-cont label {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form input, form select {
+    width: 600px;
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 200px;
+    background-color: #1a538d;
+}
+
+.foo-a a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
